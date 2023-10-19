@@ -16,6 +16,9 @@ export default {
           Grayishblue:`hsl(219, 14%, 63%)`,
           Darkgrayishblue:`hsl(219, 12%, 42%)`,
           Verydarkblue:`hsl(224, 21%, 14%)`,
+      },
+      fontFamily:{
+        PlusJakartaSans:`Plus Jakarta Sans,sans-serif`,
       }
     },
   },
