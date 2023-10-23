@@ -32,6 +32,13 @@ function App() {
             <p>5m ago</p>
           </div>
         </div>
+        <div>
+          <img src={jacob} alt="Jacob's image" />
+          <div>
+            <p><span>Jacob Thompson</span> has joined your group <span>Chess Club</span><GoDotFill/></p>
+            <p>1 day ago</p>
+          </div>
+        </div>
       </div>
     </div>
   )
