@@ -39,6 +39,14 @@ function App() {
             <p>1 day ago</p>
           </div>
         </div>
+        <div>
+          <img src={rizky} alt="Rizky's image" />
+          <div>
+            <p><span>Rizky Hasanuddin</span> sent you a private message</p>
+            <p>5days ago</p>
+            <p>Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game</p>
+          </div>
+        </div>
       </div>
     </div>
   )
