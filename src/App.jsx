@@ -15,16 +15,16 @@ function App() {
 
   return (
     <div className='font-PlusJakartaSans flex flex-col justify-center items-center bg-Verylightgrayishblue sm:h-[110vh] md:h-[100vh]'>
-      <div className='bg-white px-5 pt-5 sm:w-[40rem] md:bg-blue-500 lg:bg-pink-500 xl:bg-purple-600 rounded-2xl'>
+      <div className='bg-white px-5 pt-5 md:px-7 md:pt-9 sm:w-[40rem] md:bg-blue-500 lg:bg-pink-500 xl:bg-purple-600 rounded-2xl'>
         <div className='flex justify-between items-center mb-5'>
           <div className='flex gap-2'>
-            <p className='font-semibold text-[1.3rem] text-Verydarkblue cursor-pointer'>Notifications</p>
+            <p className='font-semibold text-[1.3rem] md:text-[1.2rem] text-Verydarkblue cursor-pointer'>Notifications</p>
             <p className='text-[1rem] font-extrabold text-White bg-Blue rounded-md px-3 items-center flex h-7 cursor-pointer'>{newMessage}</p>
           </div>
           <p className='text-Grayishblue hover:text-Blue'>Mark all as read</p>
         </div>
 
-        <div className='bg-Verylightgrayishblue p-3 rounded-lg flex mb-3'>
+        <div className='bg-Verylightgrayishblue p-3 rounded-lg flex mb-3 md:mb-1'>
           <img className='h-[2.8rem]' src={mark} alt="Mark's image" />
           <div className='ml-3 text-[0.9rem]'>
             <p className='text-Grayishblue'><span className='font-semibold text-Verydarkblue hover:text-Blue cursor-pointer'>Mark Webber</span> reacted to your recent post <span className='font-semibold text-Darkgrayishblue hover:text-Blue cursor-pointer'>My first tournament today!<GoDotFill className='inline text-Red h-4 w-4'/></span></p>
@@ -32,7 +32,7 @@ function App() {
           </div>
         </div>
 
-        <div className='bg-Verylightgrayishblue p-3 rounded-lg flex mb-3'>
+        <div className='bg-Verylightgrayishblue p-3 rounded-lg flex mb-3 md:mb-1'>
           <img className='h-[2.8rem]' src={angela} alt="Angela's image" />
           <div className='ml-3 text-[0.9rem]'>
             <p className='text-Grayishblue'><span className='font-semibold text-Verydarkblue hover:text-Blue cursor-pointer'>Angela Gray</span> followed you<GoDotFill className='inline text-Red h-4 w-4'/></p>
@@ -40,7 +40,7 @@ function App() {
           </div>
         </div>
 
-        <div className='bg-Verylightgrayishblue p-3 rounded-lg flex mb-3'>
+        <div className='bg-Verylightgrayishblue p-3 rounded-lg flex mb-3 md:mb-1'>
           <img className='h-[2.8rem]' src={jacob} alt="Jacob's image" />
           <div className='ml-3 text-[0.9rem]'>
             <p className='text-Grayishblue'><span className='font-semibold text-Verydarkblue hover:text-Blue cursor-pointer'>Jacob Thompson</span> has joined your group <span className='font-semibold text-Blue cursor-pointer'>Chess Club</span><GoDotFill className='inline text-Red h-4 w-4'/></p>
@@ -48,7 +48,7 @@ function App() {
           </div>
         </div>
 
-        <div className=' p-3 rounded-lg flex mb-3'>
+        <div className=' p-3 rounded-lg flex mb-3 md:mb-1'>
           <img className='h-[2.8rem]' src={rizky} alt="Rizky's image" />
           <div className='ml-3 text-[0.9rem]'>
             <p className='text-Grayishblue'><span className='font-semibold text-Verydarkblue hover:text-Blue cursor-pointer'>Rizky Hasanuddin</span> sent you a private message</p>
@@ -57,7 +57,7 @@ function App() {
           </div>
         </div>
 
-        <div className=' p-3 rounded-lg flex justify-between mb-3'>
+        <div className=' p-3 rounded-lg flex justify-between mb-3 md:mb-1'>
           <div className='flex'>
             <img className='h-[2.8rem]' src={kimberly} alt="Kimberly's image" />
             <div className='ml-3 text-[0.9rem]'>
@@ -76,7 +76,7 @@ function App() {
           </div>
         </div>
 
-        <div className=' p-3 rounded-lg flex mb-10'>
+        <div className=' p-3 rounded-lg flex mb-10 sm:mb-0'>
           <img className='h-[2.8rem]' src={anna} alt="Anna's image" />
           <div className='ml-3 text-[0.9rem]'>
             <p className='text-Grayishblue'><span className='font-semibold text-Verydarkblue hover:text-Blue cursor-pointer'>Anna Kim</span> left the group <span className='font-semibold text-Blue cursor-pointer'>Chess Club</span></p>
