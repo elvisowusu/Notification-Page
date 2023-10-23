@@ -11,12 +11,16 @@ import {GoDotFill} from 'react-icons/go'
 import './App.css'
 
 function App() {
+  const [newMessage,setNewMessage] = useState(3)
 
   return (
     <div className='font-PlusJakartaSans flex flex-col justify-center items-center bg-Verylightgrayishblue'>
       <div className='bg-white px-5 pt-5'>
         <div className='flex justify-between items-center mb-5'>
-          <p className='font-semibold text-[1.3rem] text-Verydarkblue'>Notifications</p>
+          <div className='flex gap-2'>
+            <p className='font-semibold text-[1.3rem] text-Verydarkblue'>Notifications</p>
+            <p className='text-[1rem] font-extrabold text-White bg-Blue rounded-md px-3 items-center flex h-7'>{newMessage}</p>
+          </div>
           <p className='text-Grayishblue hover:text-Blue'>Mark all as read</p>
         </div>
 
