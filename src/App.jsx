@@ -14,13 +14,13 @@ function App() {
 
   return (
     <div className='font-PlusJakartaSans flex flex-col justify-center items-center bg-Verylightgrayishblue'>
-      <div className='bg-white px-5 pt-6'>
-        <div className='flex justify-between'>
-          <p>Notifications</p>
+      <div className='bg-white px-5 pt-5'>
+        <div className='flex justify-between items-center'>
+          <p className='font-semibold text-[1.2rem] text-Verydarkblue'>Notifications</p>
           <p>Mark all as read</p>
         </div>
         <div>
-          <img src={mark} alt="Mark's image" />
+          <img className='h-[2.5rem] w-[2.5rem]' src={mark} alt="Mark's image" />
           <div>
             <p><span>Mark Webber</span> reacted to your post <span>My first tournament today!</span><GoDotFill/></p>
             <p>1m ago</p>
