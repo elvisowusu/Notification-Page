@@ -11,7 +11,12 @@ import {GoDotFill} from 'react-icons/go'
 import './App.css'
 
 function App() {
-  const [newMessage,setNewMessage] = useState(3)
+  const [newMessage,setNewMessage] = useState(3);
+  const [clear, setClear] = useState(false)
+  const handleClicked=()=>{
+    setNewMessage(0);
+    setClear(true);
+  }
 
   return (
     <div className='font-PlusJakartaSans flex flex-col justify-center items-center bg-Verylightgrayishblue sm:h-[110vh] md:h-[100vh]'>
@@ -21,10 +26,10 @@ function App() {
             <p className='font-semibold text-[1.3rem] text-Verydarkblue cursor-pointer'>Notifications</p>
             <p className='text-[1rem] font-extrabold text-White bg-Blue rounded-md px-3 items-center flex h-7 cursor-pointer'>{newMessage}</p>
           </div>
-          <button className='text-Grayishblue hover:text-Blue transition ease-in duration-150'>Mark all as read</button>
+          <button onClick={handleClicked} className='text-Grayishblue bg-White hover:text-Blue transition ease-in duration-150'>Mark all as read</button>
         </div>
 
-        <div className='bg-Verylightgrayishblue p-3 rounded-lg flex mb-3 md:mb-1'>
+        <div className={`${clear?'':'bg-Verylightgrayishblue'} p-3 rounded-lg flex mb-3 md:mb-1`}>
           <img className='h-[2.8rem] cursor-pointer' src={mark} alt="Mark's image" />
           <div className='ml-3 text-[0.9rem]'>
             <p className='text-Grayishblue'><span className='font-semibold text-Verydarkblue hover:text-Blue cursor-pointer transition ease-in duration-150'>Mark Webber</span> reacted to your recent post <span className='font-semibold text-Darkgrayishblue hover:text-Blue cursor-pointer transition ease-in duration-150'>My first tournament today!<GoDotFill className='inline text-Red h-4 w-4'/></span></p>
@@ -32,7 +37,7 @@ function App() {
           </div>
         </div>
 
-        <div className='bg-Verylightgrayishblue p-3 rounded-lg flex mb-3 md:mb-1'>
+        <div className={`${clear?'':'bg-Verylightgrayishblue'} p-3 rounded-lg flex mb-3 md:mb-1`}>
           <img className='h-[2.8rem] cursor-pointer' src={angela} alt="Angela's image" />
           <div className='ml-3 text-[0.9rem]'>
             <p className='text-Grayishblue'><span className='font-semibold text-Verydarkblue hover:text-Blue cursor-pointer transition ease-in duration-150'>Angela Gray</span> followed you<GoDotFill className='inline text-Red h-4 w-4'/></p>
@@ -40,7 +45,7 @@ function App() {
           </div>
         </div>
 
-        <div className='bg-Verylightgrayishblue p-3 rounded-lg flex mb-3 md:mb-1'>
+        <div className={`${clear?'':'bg-Verylightgrayishblue'} p-3 rounded-lg flex mb-3 md:mb-1`}>
           <img className='h-[2.8rem] cursor-pointer' src={jacob} alt="Jacob's image" />
           <div className='ml-3 text-[0.9rem]'>
             <p className='text-Grayishblue'><span className='font-semibold text-Verydarkblue hover:text-Blue cursor-pointer transition ease-in duration-150'>Jacob Thompson</span> has joined your group <span className='font-semibold text-Blue cursor-pointer transition ease-in duration-150'>Chess Club</span><GoDotFill className='inline text-Red h-4 w-4'/></p>
