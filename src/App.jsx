@@ -21,7 +21,7 @@ function App() {
             <p className='font-semibold text-[1.3rem] md:text-[1.2rem] text-Verydarkblue cursor-pointer'>Notifications</p>
             <p className='text-[1rem] font-extrabold text-White bg-Blue rounded-md px-3 items-center flex h-7 cursor-pointer'>{newMessage}</p>
           </div>
-          <p className='text-Grayishblue hover:text-Blue'>Mark all as read</p>
+          <button className='text-Grayishblue hover:text-Blue'>Mark all as read</button>
         </div>
 
         <div className='bg-Verylightgrayishblue p-3 rounded-lg flex mb-3 md:mb-1'>
@@ -53,7 +53,7 @@ function App() {
           <div className='ml-3 text-[0.9rem]'>
             <p className='text-Grayishblue'><span className='font-semibold text-Verydarkblue hover:text-Blue cursor-pointer'>Rizky Hasanuddin</span> sent you a private message</p>
             <p className='text-Lightgrayishblue2'>5 days ago</p>
-            <p className='text-Grayishblue border p-4 rounded-md mt-4 outline-none border-Lightgrayishblue2'>Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.</p>
+            <p className='text-Grayishblue border p-4 rounded-md mt-4 outline-none border-Lightgrayishblue2 cursor-pointer hover:bg-Verylightgrayishblue'>Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.</p>
           </div>
         </div>
 
