@@ -20,7 +20,7 @@ function App() {
         <div>
           <img src={mark} alt="" />
           <div>
-            <p><span>Mark Webber</span></p>
+            <p><span>Mark Webber</span> reacted to your post <span>My first tournament today!</span></p>
           </div>
         </div>
       </div>
