@@ -18,8 +18,9 @@ function App() {
     setNewMessage(0);
     setClear(true);
   }
-  const read =()=>{
-    setShow(true);
+  const read =(index)=>{
+    setShow({...show, [index]:true});
+    setNewMessage(newMessage-1);
   }
 
   return (
@@ -33,7 +34,7 @@ function App() {
           <button onClick={handleClicked} className='text-Grayishblue bg-White hover:text-Blue transition ease-in duration-150'>Mark all as read</button>
         </div>
 
-        <div onClick={read} className={`${clear || show?'':'bg-Verylightgrayishblue'} p-3 rounded-lg flex mb-3 md:mb-1`}>
+        <div onClick={()=>read(0)} className={`${clear || show[0]?'':'bg-Verylightgrayishblue'} p-3 rounded-lg flex mb-3 md:mb-1`}>
           <img className='h-[2.8rem] cursor-pointer' src={mark} alt="Mark's image" />
           <div className='ml-3 text-[0.9rem]'>
             <p className='text-Grayishblue'><span className='font-semibold text-Verydarkblue hover:text-Blue cursor-pointer transition ease-in duration-150'>Mark Webber</span> reacted to your recent post <span className='font-semibold text-Darkgrayishblue hover:text-Blue cursor-pointer transition ease-in duration-150'>My first tournament today!<GoDotFill className='inline text-Red h-4 w-4'/></span></p>
@@ -41,7 +42,7 @@ function App() {
           </div>
         </div>
 
-        <div onClick={read} className={`${clear || show?'':'bg-Verylightgrayishblue'} p-3 rounded-lg flex mb-3 md:mb-1`}>
+        <div onClick={()=>read(1)} className={`${clear || show[1]?'':'bg-Verylightgrayishblue'} p-3 rounded-lg flex mb-3 md:mb-1`}>
           <img className='h-[2.8rem] cursor-pointer' src={angela} alt="Angela's image" />
           <div className='ml-3 text-[0.9rem]'>
             <p className='text-Grayishblue'><span className='font-semibold text-Verydarkblue hover:text-Blue cursor-pointer transition ease-in duration-150'>Angela Gray</span> followed you<GoDotFill className='inline text-Red h-4 w-4'/></p>
@@ -49,7 +50,7 @@ function App() {
           </div>
         </div>
 
-        <div onClick={read} className={`${clear || show?'':'bg-Verylightgrayishblue'} p-3 rounded-lg flex mb-3 md:mb-1`}>
+        <div onClick={()=>read(2)} className={`${clear || show[2]?'':'bg-Verylightgrayishblue'} p-3 rounded-lg flex mb-3 md:mb-1`}>
           <img className='h-[2.8rem] cursor-pointer' src={jacob} alt="Jacob's image" />
           <div className='ml-3 text-[0.9rem]'>
             <p className='text-Grayishblue'><span className='font-semibold text-Verydarkblue hover:text-Blue cursor-pointer transition ease-in duration-150'>Jacob Thompson</span> has joined your group <span className='font-semibold text-Blue cursor-pointer transition ease-in duration-150'>Chess Club</span><GoDotFill className='inline text-Red h-4 w-4'/></p>
