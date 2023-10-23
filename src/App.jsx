@@ -6,7 +6,7 @@ import kimberly from './assets/avatar-kimberly-smith.webp'
 import mark from './assets/avatar-mark-webber.webp'
 import nathan from './assets/avatar-nathan-peterson.webp'
 import rizky from './assets/avatar-rizky-hasanuddin.webp'
-import {RxDotFilled} from 'react-icons/rx'
+import {GoDotFill} from 'react-icons/go'
 import './App.css'
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
         <div>
           <img src={mark} alt="" />
           <div>
-            <p><span>Mark Webber</span> reacted to your post <span>My first tournament today!</span><RxDotFilled/></p>
+            <p><span>Mark Webber</span> reacted to your post <span>My first tournament today!</span><GoDotFill/></p>
           </div>
         </div>
       </div>
