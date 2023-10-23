@@ -1,34 +1,30 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import angela from './assets/avatar-angela-gray.webp'
+import anna from './assets/avatar-anna-kim.webp'
+import jacob from './assets/avatar-jacob-thompson.webp'
+import kimberly from './assets/avatar-kimberly-smith.webp'
+import mark from './assets/avatar-mark-webber.webp'
+import nathan from './assets/avatar-nathan-peterson.webp'
+import rizky from './assets/avatar-rizky-hasanuddin.webp'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
+    <div className='font-PlusJakartaSans'>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <div className='flex justify-between'>
+          <p>Notifications</p>
+          <p>Mark all as read</p>
+        </div>
+        <div>
+          <img src={mark} alt="" />
+          <div>
+            <p><span>Mark Webber</span></p>
+          </div>
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    </div>
   )
 }
 
