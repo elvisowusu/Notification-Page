@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className='font-PlusJakartaSans flex flex-col justify-center items-center bg-Verylightgrayishblue sm:h-[110vh] md:h-[100vh]'>
-      <div className='bg-white px-5 pt-5 md:px-6 md:pt-9 sm:w-[40rem] lg:bg-pink-500 xl:bg-purple-600 rounded-2xl'>
+      <div className='bg-white px-5 pt-5 md:px-6 md:pt-9 sm:w-[40rem] rounded-2xl'>
         <div className='flex justify-between items-center mb-5 md:mb-7'>
           <div className='flex gap-2'>
             <p className='font-semibold text-[1.3rem] text-Verydarkblue cursor-pointer'>Notifications</p>
