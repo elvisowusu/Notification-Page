@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className='font-PlusJakartaSans flex flex-col justify-center items-center bg-Verylightgrayishblue'>
-      <div>
+      <div className='bg-white px-5 pt-6'>
         <div className='flex justify-between'>
           <p>Notifications</p>
           <p>Mark all as read</p>
