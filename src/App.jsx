@@ -14,8 +14,8 @@ function App() {
   const [newMessage,setNewMessage] = useState(3)
 
   return (
-    <div className='font-PlusJakartaSans flex flex-col justify-center items-center bg-Verylightgrayishblue'>
-      <div className='bg-white px-5 pt-5 sm:bg-red-500 md:bg-blue-500 lg:bg-pink-500 xl:bg-purple-600'>
+    <div className='font-PlusJakartaSans flex flex-col justify-center items-center bg-Verylightgrayishblue sm:h-[110vh] md:h-[100vh]'>
+      <div className='bg-white px-5 pt-5 sm:w-[40rem] md:bg-blue-500 lg:bg-pink-500 xl:bg-purple-600 rounded-2xl'>
         <div className='flex justify-between items-center mb-5'>
           <div className='flex gap-2'>
             <p className='font-semibold text-[1.3rem] text-Verydarkblue'>Notifications</p>
