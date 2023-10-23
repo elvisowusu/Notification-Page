@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className='font-PlusJakartaSans flex flex-col justify-center items-center bg-Verylightgrayishblue'>
-      <div className='bg-white px-5 pt-5'>
+      <div className='bg-white px-5 pt-5 sm:bg-red-500 md:bg-blue-500 lg:bg-pink-500 xl:bg-purple-600'>
         <div className='flex justify-between items-center mb-5'>
           <div className='flex gap-2'>
             <p className='font-semibold text-[1.3rem] text-Verydarkblue'>Notifications</p>
@@ -57,13 +57,15 @@ function App() {
           </div>
         </div>
 
-        <div className=' p-3 rounded-lg flex mb-3'>
-          <img className='h-[2.8rem]' src={kimberly} alt="Kimberly's image" />
-          <div className='ml-3 text-[0.9rem]'>
-            <p className='text-Grayishblue'><span className='font-semibold text-Verydarkblue hover:text-Blue'>Kimberly Smith</span> commented on your picture</p>
-            <p className='text-Lightgrayishblue2'>1 week ago</p>
+        <div className=' p-3 rounded-lg flex justify-between mb-3'>
+          <div className='flex'>
+            <img className='h-[2.8rem]' src={kimberly} alt="Kimberly's image" />
+            <div className='ml-3 text-[0.9rem]'>
+              <p className='text-Grayishblue'><span className='font-semibold text-Verydarkblue hover:text-Blue'>Kimberly Smith</span> commented on your picture</p>
+              <p className='text-Lightgrayishblue2'>1 week ago</p>
+            </div>
           </div>
-          <img className='h-[2.8rem]' src={chessImg} alt="chess image" />
+          <img className='h-[2.8rem] ml-2' src={chessImg} alt="chess image" />
         </div>
 
         <div className=' p-3 rounded-lg flex mb-4 sm:mb-0'>
