@@ -39,7 +39,7 @@ function App() {
         <div className='bg-Verylightgrayishblue p-3 rounded-lg flex mb-3'>
           <img className='h-[2.8rem]' src={jacob} alt="Jacob's image" />
           <div className='ml-3 text-[0.9rem]'>
-            <p className='text-Grayishblue'><span className='font-semibold text-Verydarkblue hover:text-Blue'>Jacob Thompson</span> has joined your group <span className='font-semibold text-Darkgrayishblue hover:text-Blue'>Chess Club</span><GoDotFill className='inline text-Red h-4 w-4'/></p>
+            <p className='text-Grayishblue'><span className='font-semibold text-Verydarkblue hover:text-Blue'>Jacob Thompson</span> has joined your group <span className='font-semibold text-Blue'>Chess Club</span><GoDotFill className='inline text-Red h-4 w-4'/></p>
             <p className='text-Lightgrayishblue2'>1 day ago</p>
           </div>
         </div>
@@ -73,7 +73,7 @@ function App() {
         <div className=' p-3 rounded-lg flex mb-10'>
           <img className='h-[2.8rem]' src={anna} alt="Anna's image" />
           <div className='ml-3 text-[0.9rem]'>
-            <p className='text-Grayishblue'><span className='font-semibold text-Verydarkblue hover:text-Blue'>Anna Kim</span> left the group <span className='font-semibold text-Darkgrayishblue hover:text-Blue'>Chess Club</span></p>
+            <p className='text-Grayishblue'><span className='font-semibold text-Verydarkblue hover:text-Blue'>Anna Kim</span> left the group <span className='font-semibold text-Blue'>Chess Club</span></p>
             <p className='text-Lightgrayishblue2'>2 weeks ago</p>
           </div>
         </div>
