@@ -19,10 +19,10 @@ function App() {
           <p className='font-semibold text-[1.2rem] text-Verydarkblue'>Notifications</p>
           <p>Mark all as read</p>
         </div>
-        <div>
-          <img className='h-[2.5rem] w-[2.5rem]' src={mark} alt="Mark's image" />
+        <div className='bg-Lightgrayishblue1 p-3 flex'>
+          <img className='h-[3rem] w-[3rem]' src={mark} alt="Mark's image" />
           <div>
-            <p><span>Mark Webber</span> reacted to your post <span>My first tournament today!</span><GoDotFill/></p>
+            <p><span>Mark Webber</span> reacted to your recent post <span>My first tournament today!</span><GoDotFill/></p>
             <p>1m ago</p>
           </div>
         </div>
