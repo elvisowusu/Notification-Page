@@ -44,7 +44,7 @@ function App() {
           </div>
         </div>
 
-        <div className='bg-Verylightgrayishblue p-3 rounded-lg flex mb-3'>
+        <div className=' p-3 rounded-lg flex mb-3'>
           <img className='h-[2.8rem]' src={rizky} alt="Rizky's image" />
           <div className='ml-3 text-[0.9rem]'>
             <p className='text-Grayishblue'><span className='font-semibold text-Verydarkblue hover:text-Blue'>Rizky Hasanuddin</span> sent you a private message</p>
@@ -53,7 +53,7 @@ function App() {
           </div>
         </div>
 
-        <div className='bg-Verylightgrayishblue p-3 rounded-lg flex mb-3'>
+        <div className=' p-3 rounded-lg flex mb-3'>
           <img className='h-[2.8rem]' src={kimberly} alt="Kimberly's image" />
           <div className='ml-3 text-[0.9rem]'>
             <p className='text-Grayishblue'><span className='font-semibold text-Verydarkblue hover:text-Blue'>Kimberly Smith</span> commented on your picture</p>
@@ -62,7 +62,7 @@ function App() {
           <img className='h-[2.8rem]' src={chessImg} alt="chess image" />
         </div>
 
-        <div className='bg-Verylightgrayishblue p-3 rounded-lg flex mb-3'>
+        <div className=' p-3 rounded-lg flex mb-3'>
           <img className='h-[2.8rem]' src={nathan} alt="Nathan's image" />
           <div className='ml-3 text-[0.9rem]'>
             <p className='text-Grayishblue'><span className='font-semibold text-Verydarkblue hover:text-Blue'>Nathan Peterson</span> reacted to your recent post <span className='font-semibold text-Darkgrayishblue hover:text-Blue'>5 end-game strategies to increase your win rate</span></p>
@@ -70,11 +70,11 @@ function App() {
           </div>
         </div>
 
-        <div>
-          <img src={anna} alt="Anna's image" />
-          <div>
-            <p><span>Anna Kim</span> left the group <span>Chess Club</span></p>
-            <p>2 weeks ago</p>
+        <div className=' p-3 rounded-lg flex mb-10'>
+          <img className='h-[2.8rem]' src={anna} alt="Anna's image" />
+          <div className='ml-3 text-[0.9rem]'>
+            <p className='text-Grayishblue'><span className='font-semibold text-Verydarkblue hover:text-Blue'>Anna Kim</span> left the group <span className='font-semibold text-Darkgrayishblue hover:text-Blue'>Chess Club</span></p>
+            <p className='text-Lightgrayishblue2'>2 weeks ago</p>
           </div>
         </div>
       </div>
