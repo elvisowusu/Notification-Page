@@ -44,12 +44,12 @@ function App() {
           </div>
         </div>
 
-        <div>
-          <img src={rizky} alt="Rizky's image" />
-          <div>
-            <p><span>Rizky Hasanuddin</span> sent you a private message</p>
-            <p>5days ago</p>
-            <p>Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game</p>
+        <div className='bg-Verylightgrayishblue p-3 rounded-lg flex mb-3'>
+          <img className='h-[2.8rem]' src={rizky} alt="Rizky's image" />
+          <div className='ml-3 text-[0.9rem]'>
+            <p className='text-Grayishblue'><span className='font-semibold text-Verydarkblue hover:text-Blue'>Rizky Hasanuddin</span> sent you a private message</p>
+            <p className='text-Lightgrayishblue2'>5 days ago</p>
+            <p className='text-Grayishblue border p-4 rounded-md'>Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.</p>
           </div>
         </div>
 
