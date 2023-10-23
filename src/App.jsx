@@ -47,6 +47,14 @@ function App() {
             <p>Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game</p>
           </div>
         </div>
+        <div>
+          <img src={kimberly} alt="Kimberly's image" />
+          <div>
+            <p><span>Kimberly Smith</span> commented on your picture</p>
+            <p>1 week ago</p>
+          </div>
+        </div>
+        
       </div>
     </div>
   )
