@@ -19,10 +19,17 @@ function App() {
           <p>Mark all as read</p>
         </div>
         <div>
-          <img src={mark} alt="" />
+          <img src={mark} alt="Mark's image" />
           <div>
             <p><span>Mark Webber</span> reacted to your post <span>My first tournament today!</span><GoDotFill/></p>
             <p>1m ago</p>
+          </div>
+        </div>
+        <div>
+          <img src={angela} alt="Angela's image" />
+          <div>
+            <p><span>Angela Gray</span> followed you<GoDotFill/></p>
+            <p>5m ago</p>
           </div>
         </div>
       </div>
