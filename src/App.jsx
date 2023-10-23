@@ -13,7 +13,7 @@ import './App.css'
 function App() {
 
   return (
-    <div className='font-PlusJakartaSans flex flex-col justify-center items-center'>
+    <div className='font-PlusJakartaSans flex flex-col justify-center items-center bg-Verylightgrayishblue'>
       <div>
         <div className='flex justify-between'>
           <p>Notifications</p>
