@@ -25,7 +25,7 @@ function App() {
         </div>
 
         <div className='bg-Verylightgrayishblue p-3 rounded-lg flex mb-3 md:mb-1'>
-          <img className='h-[2.8rem]' src={mark} alt="Mark's image" />
+          <img className='h-[2.8rem] cursor-pointer' src={mark} alt="Mark's image" />
           <div className='ml-3 text-[0.9rem]'>
             <p className='text-Grayishblue'><span className='font-semibold text-Verydarkblue hover:text-Blue cursor-pointer'>Mark Webber</span> reacted to your recent post <span className='font-semibold text-Darkgrayishblue hover:text-Blue cursor-pointer'>My first tournament today!<GoDotFill className='inline text-Red h-4 w-4'/></span></p>
             <p className='text-Lightgrayishblue2'>1m ago</p>
@@ -33,7 +33,7 @@ function App() {
         </div>
 
         <div className='bg-Verylightgrayishblue p-3 rounded-lg flex mb-3 md:mb-1'>
-          <img className='h-[2.8rem]' src={angela} alt="Angela's image" />
+          <img className='h-[2.8rem] cursor-pointer' src={angela} alt="Angela's image" />
           <div className='ml-3 text-[0.9rem]'>
             <p className='text-Grayishblue'><span className='font-semibold text-Verydarkblue hover:text-Blue cursor-pointer'>Angela Gray</span> followed you<GoDotFill className='inline text-Red h-4 w-4'/></p>
             <p className='text-Lightgrayishblue2'>5m ago</p>
@@ -41,7 +41,7 @@ function App() {
         </div>
 
         <div className='bg-Verylightgrayishblue p-3 rounded-lg flex mb-3 md:mb-1'>
-          <img className='h-[2.8rem]' src={jacob} alt="Jacob's image" />
+          <img className='h-[2.8rem] cursor-pointer' src={jacob} alt="Jacob's image" />
           <div className='ml-3 text-[0.9rem]'>
             <p className='text-Grayishblue'><span className='font-semibold text-Verydarkblue hover:text-Blue cursor-pointer'>Jacob Thompson</span> has joined your group <span className='font-semibold text-Blue cursor-pointer'>Chess Club</span><GoDotFill className='inline text-Red h-4 w-4'/></p>
             <p className='text-Lightgrayishblue2'>1 day ago</p>
@@ -49,7 +49,7 @@ function App() {
         </div>
 
         <div className=' p-3 rounded-lg flex mb-3 md:mb-1'>
-          <img className='h-[2.8rem]' src={rizky} alt="Rizky's image" />
+          <img className='h-[2.8rem] cursor-pointer' src={rizky} alt="Rizky's image" />
           <div className='ml-3 text-[0.9rem]'>
             <p className='text-Grayishblue'><span className='font-semibold text-Verydarkblue hover:text-Blue cursor-pointer'>Rizky Hasanuddin</span> sent you a private message</p>
             <p className='text-Lightgrayishblue2'>5 days ago</p>
@@ -59,17 +59,17 @@ function App() {
 
         <div className=' p-3 rounded-lg flex justify-between mb-3 md:mb-1'>
           <div className='flex'>
-            <img className='h-[2.8rem]' src={kimberly} alt="Kimberly's image" />
+            <img className='h-[2.8rem] cursor-pointer' src={kimberly} alt="Kimberly's image" />
             <div className='ml-3 text-[0.9rem]'>
               <p className='text-Grayishblue'><span className='font-semibold text-Verydarkblue hover:text-Blue cursor-pointer'>Kimberly Smith</span> commented on your picture</p>
               <p className='text-Lightgrayishblue2'>1 week ago</p>
             </div>
           </div>
-          <img className='h-[2.8rem] ml-2' src={chessImg} alt="chess image" />
+          <img className='h-[2.8rem] ml-2 cursor-pointer' src={chessImg} alt="chess image" />
         </div>
 
         <div className=' p-3 rounded-lg flex mb-4 sm:mb-0'>
-          <img className='h-[2.8rem]' src={nathan} alt="Nathan's image" />
+          <img className='h-[2.8rem] cursor-pointer' src={nathan} alt="Nathan's image" />
           <div className='ml-3 text-[0.9rem]'>
             <p className='text-Grayishblue'><span className='font-semibold text-Verydarkblue hover:text-Blue cursor-pointer'>Nathan Peterson</span> reacted to your recent post <span className='font-semibold text-Darkgrayishblue hover:text-Blue cursor-pointer'>5 end-game strategies to increase your win rate</span></p>
             <p className='text-Lightgrayishblue2'>2 weeks ago</p>
@@ -77,7 +77,7 @@ function App() {
         </div>
 
         <div className=' p-3 rounded-lg flex mb-10 sm:mb-0'>
-          <img className='h-[2.8rem]' src={anna} alt="Anna's image" />
+          <img className='h-[2.8rem] cursor-pointer' src={anna} alt="Anna's image" />
           <div className='ml-3 text-[0.9rem]'>
             <p className='text-Grayishblue'><span className='font-semibold text-Verydarkblue hover:text-Blue cursor-pointer'>Anna Kim</span> left the group <span className='font-semibold text-Blue cursor-pointer'>Chess Club</span></p>
             <p className='text-Lightgrayishblue2'>2 weeks ago</p>
