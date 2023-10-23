@@ -53,13 +53,13 @@ function App() {
           </div>
         </div>
 
-        <div>
-          <img src={kimberly} alt="Kimberly's image" />
-          <div>
-            <p><span>Kimberly Smith</span> commented on your picture</p>
-            <p>1 week ago</p>
+        <div className='bg-Verylightgrayishblue p-3 rounded-lg flex mb-3'>
+          <img className='h-[2.8rem]' src={kimberly} alt="Kimberly's image" />
+          <div className='ml-3 text-[0.9rem]'>
+            <p className='text-Grayishblue'><span className='font-semibold text-Verydarkblue hover:text-Blue'>Kimberly Smith</span> commented on your picture</p>
+            <p className='text-Lightgrayishblue2'>1 week ago</p>
           </div>
-          <img src={chessImg} alt="chess image" />
+          <img className='h-[2.8rem]' src={chessImg} alt="chess image" />
         </div>
 
         <div>
