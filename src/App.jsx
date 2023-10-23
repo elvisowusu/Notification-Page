@@ -53,12 +53,19 @@ function App() {
             <p><span>Kimberly Smith</span> commented on your picture</p>
             <p>1 week ago</p>
           </div>
-          <img src={} alt="" />
+          <img src={kimberly} alt="" />
         </div>
         <div>
           <img src={nathan} alt="Nathan's image" />
           <div>
             <p><span>Nathan Peterson</span> reacted to your recent post <span>5 end-game strategies to increase your win rate</span></p>
+            <p>2 weeks ago</p>
+          </div>
+        </div>
+        <div>
+          <img src={anna} alt="Anna's image" />
+          <div>
+            <p><span>Anna Kim</span> left the group <span>Chess Club</span></p>
             <p>2 weeks ago</p>
           </div>
         </div>
