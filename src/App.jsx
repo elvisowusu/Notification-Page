@@ -15,10 +15,10 @@ function App() {
 
   return (
     <div className='font-PlusJakartaSans flex flex-col justify-center items-center bg-Verylightgrayishblue sm:h-[110vh] md:h-[100vh]'>
-      <div className='bg-white px-5 pt-5 md:px-7 md:pt-9 sm:w-[40rem] md:bg-blue-500 lg:bg-pink-500 xl:bg-purple-600 rounded-2xl'>
-        <div className='flex justify-between items-center mb-5'>
+      <div className='bg-white px-5 pt-5 md:px-6 md:pt-9 sm:w-[40rem] md:bg-blue-500 lg:bg-pink-500 xl:bg-purple-600 rounded-2xl'>
+        <div className='flex justify-between items-center mb-5 md:mb-7'>
           <div className='flex gap-2'>
-            <p className='font-semibold text-[1.3rem] md:text-[1.2rem] text-Verydarkblue cursor-pointer'>Notifications</p>
+            <p className='font-semibold text-[1.3rem] text-Verydarkblue cursor-pointer'>Notifications</p>
             <p className='text-[1rem] font-extrabold text-White bg-Blue rounded-md px-3 items-center flex h-7 cursor-pointer'>{newMessage}</p>
           </div>
           <button className='text-Grayishblue hover:text-Blue'>Mark all as read</button>
