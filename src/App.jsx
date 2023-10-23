@@ -17,12 +17,12 @@ function App() {
       <div className='bg-white px-5 pt-5'>
         <div className='flex justify-between items-center'>
           <p className='font-semibold text-[1.3rem] text-Verydarkblue'>Notifications</p>
-          <p className='text-Grayishblue'>Mark all as read</p>
+          <p className='text-Grayishblue hover:text-Blue'>Mark all as read</p>
         </div>
         <div className='bg-Verylightgrayishblue p-3 rounded-lg flex'>
           <img className='h-[2.8rem]' src={mark} alt="Mark's image" />
           <div className='ml-3 text-[0.9rem]'>
-            <p className='text-Grayishblue'><span className='font-semibold text-Verydarkblue'>Mark Webber</span> reacted to your recent post <span className='font-semibold text-Darkgrayishblue'>My first tournament today!<GoDotFill className='inline text-Red'/></span></p>
+            <p className='text-Grayishblue'><span className='font-semibold text-Verydarkblue hover:text-Blue'>Mark Webber</span> reacted to your recent post <span className='font-semibold text-Darkgrayishblue hover:text-Blue'>My first tournament today!<GoDotFill className='inline text-Red'/></span></p>
             <p className='text-Lightgrayishblue2'>1m ago</p>
           </div>
         </div>
