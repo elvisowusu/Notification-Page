@@ -49,7 +49,7 @@ function App() {
           <div className='ml-3 text-[0.9rem]'>
             <p className='text-Grayishblue'><span className='font-semibold text-Verydarkblue hover:text-Blue'>Rizky Hasanuddin</span> sent you a private message</p>
             <p className='text-Lightgrayishblue2'>5 days ago</p>
-            <p className='text-Grayishblue border p-4 rounded-md mt-4'>Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.</p>
+            <p className='text-Grayishblue border p-4 rounded-md mt-4 outline-none border-Lightgrayishblue2'>Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.</p>
           </div>
         </div>
 
