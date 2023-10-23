@@ -22,7 +22,7 @@ function App() {
         <div className='bg-Verylightgrayishblue p-3 rounded-lg flex'>
           <img className='h-[2.8rem]' src={mark} alt="Mark's image" />
           <div className='ml-3 text-[0.9rem]'>
-            <p className='text-Grayishblue'><span className='font-semibold text-Verydarkblue'>Mark Webber</span> reacted to your recent post <span className='font-semibold text-Darkgrayishblue'>My first tournament today!<GoDotFill className='inline'/></span></p>
+            <p className='text-Grayishblue'><span className='font-semibold text-Verydarkblue'>Mark Webber</span> reacted to your recent post <span className='font-semibold text-Darkgrayishblue'>My first tournament today!<GoDotFill className='inline text-Red'/></span></p>
             <p className='text-Lightgrayishblue2'>1m ago</p>
           </div>
         </div>
