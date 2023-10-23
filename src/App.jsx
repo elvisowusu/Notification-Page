@@ -3,6 +3,7 @@ import angela from './assets/avatar-angela-gray.webp'
 import anna from './assets/avatar-anna-kim.webp'
 import jacob from './assets/avatar-jacob-thompson.webp'
 import kimberly from './assets/avatar-kimberly-smith.webp'
+import chessImg from './assets/image-chess.webp'
 import mark from './assets/avatar-mark-webber.webp'
 import nathan from './assets/avatar-nathan-peterson.webp'
 import rizky from './assets/avatar-rizky-hasanuddin.webp'
@@ -53,7 +54,7 @@ function App() {
             <p><span>Kimberly Smith</span> commented on your picture</p>
             <p>1 week ago</p>
           </div>
-          <img src={kimberly} alt="" />
+          <img src={chessImg} alt="chess image" />
         </div>
         <div>
           <img src={nathan} alt="Nathan's image" />
