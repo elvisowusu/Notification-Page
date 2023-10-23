@@ -36,11 +36,11 @@ function App() {
           </div>
         </div>
 
-        <div>
-          <img src={jacob} alt="Jacob's image" />
-          <div>
-            <p><span>Jacob Thompson</span> has joined your group <span>Chess Club</span><GoDotFill/></p>
-            <p>1 day ago</p>
+        <div className='bg-Verylightgrayishblue p-3 rounded-lg flex mb-3'>
+          <img className='h-[2.8rem]' src={jacob} alt="Jacob's image" />
+          <div className='ml-3 text-[0.9rem]'>
+            <p className='text-Grayishblue'><span className='font-semibold text-Verydarkblue hover:text-Blue'>Jacob Thompson</span> has joined your group <span className='font-semibold text-Darkgrayishblue hover:text-Blue'>Chess Club</span><GoDotFill className='inline text-Red h-4 w-4'/></p>
+            <p className='text-Lightgrayishblue2'>1 day ago</p>
           </div>
         </div>
 
