@@ -20,9 +20,9 @@ function App() {
           <p>Mark all as read</p>
         </div>
         <div className='bg-Lightgrayishblue1 p-3 rounded-lg flex'>
-          <img className='h-[2.9rem] w-[2.9rem]' src={mark} alt="Mark's image" />
-          <div className='ml-3'>
-            <p><span>Mark Webber</span> reacted to your recent post <span>My first tournament today!</span><GoDotFill/></p>
+          <img className='h-[2.8rem]' src={mark} alt="Mark's image" />
+          <div className='ml-3 text-[0.9rem]'>
+            <p className=''><span className='font-semibold text-Verydarkblue'>Mark Webber</span> reacted to your recent post <span className='font-semibold text-Grayishblue'>My first tournament today!<GoDotFill className='inline'/></span></p>
             <p>1m ago</p>
           </div>
         </div>
