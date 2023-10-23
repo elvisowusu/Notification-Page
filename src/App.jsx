@@ -17,7 +17,7 @@ function App() {
       <div className='bg-white px-5 pt-5'>
         <div className='flex justify-between items-center'>
           <p className='font-semibold text-[1.3rem] text-Verydarkblue'>Notifications</p>
-          <p>Mark all as read</p>
+          <p className='text-Grayishblue'>Mark all as read</p>
         </div>
         <div className='bg-Verylightgrayishblue p-3 rounded-lg flex'>
           <img className='h-[2.8rem]' src={mark} alt="Mark's image" />
