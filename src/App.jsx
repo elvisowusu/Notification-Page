@@ -19,6 +19,7 @@ function App() {
           <p className='font-semibold text-[1.3rem] text-Verydarkblue'>Notifications</p>
           <p className='text-Grayishblue hover:text-Blue'>Mark all as read</p>
         </div>
+
         <div className='bg-Verylightgrayishblue p-3 rounded-lg flex'>
           <img className='h-[2.8rem]' src={mark} alt="Mark's image" />
           <div className='ml-3 text-[0.9rem]'>
@@ -26,6 +27,7 @@ function App() {
             <p className='text-Lightgrayishblue2'>1m ago</p>
           </div>
         </div>
+
         <div>
           <img src={angela} alt="Angela's image" />
           <div>
@@ -33,6 +35,7 @@ function App() {
             <p>5m ago</p>
           </div>
         </div>
+
         <div>
           <img src={jacob} alt="Jacob's image" />
           <div>
@@ -40,6 +43,7 @@ function App() {
             <p>1 day ago</p>
           </div>
         </div>
+
         <div>
           <img src={rizky} alt="Rizky's image" />
           <div>
@@ -48,6 +52,7 @@ function App() {
             <p>Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game</p>
           </div>
         </div>
+
         <div>
           <img src={kimberly} alt="Kimberly's image" />
           <div>
@@ -56,6 +61,7 @@ function App() {
           </div>
           <img src={chessImg} alt="chess image" />
         </div>
+
         <div>
           <img src={nathan} alt="Nathan's image" />
           <div>
@@ -63,6 +69,7 @@ function App() {
             <p>2 weeks ago</p>
           </div>
         </div>
+        
         <div>
           <img src={anna} alt="Anna's image" />
           <div>
