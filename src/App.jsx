@@ -15,24 +15,24 @@ function App() {
   return (
     <div className='font-PlusJakartaSans flex flex-col justify-center items-center bg-Verylightgrayishblue'>
       <div className='bg-white px-5 pt-5'>
-        <div className='flex justify-between items-center'>
+        <div className='flex justify-between items-center mb-5'>
           <p className='font-semibold text-[1.3rem] text-Verydarkblue'>Notifications</p>
           <p className='text-Grayishblue hover:text-Blue'>Mark all as read</p>
         </div>
 
-        <div className='bg-Verylightgrayishblue p-3 rounded-lg flex'>
+        <div className='bg-Verylightgrayishblue p-3 rounded-lg flex mb-3'>
           <img className='h-[2.8rem]' src={mark} alt="Mark's image" />
           <div className='ml-3 text-[0.9rem]'>
-            <p className='text-Grayishblue'><span className='font-semibold text-Verydarkblue hover:text-Blue'>Mark Webber</span> reacted to your recent post <span className='font-semibold text-Darkgrayishblue hover:text-Blue'>My first tournament today!<GoDotFill className='inline text-Red'/></span></p>
+            <p className='text-Grayishblue'><span className='font-semibold text-Verydarkblue hover:text-Blue'>Mark Webber</span> reacted to your recent post <span className='font-semibold text-Darkgrayishblue hover:text-Blue'>My first tournament today!<GoDotFill className='inline text-Red h-4 w-4'/></span></p>
             <p className='text-Lightgrayishblue2'>1m ago</p>
           </div>
         </div>
 
-        <div>
-          <img src={angela} alt="Angela's image" />
-          <div>
-            <p><span>Angela Gray</span> followed you<GoDotFill/></p>
-            <p>5m ago</p>
+        <div className='bg-Verylightgrayishblue p-3 rounded-lg flex mb-3'>
+          <img className='h-[2.8rem]' src={angela} alt="Angela's image" />
+          <div className='ml-3 text-[0.9rem]'>
+            <p className='text-Grayishblue'><span className='font-semibold text-Verydarkblue hover:text-Blue'>Angela Gray</span> followed you<GoDotFill className='inline text-Red h-4 w-4'/></p>
+            <p className='text-Lightgrayishblue2'>5m ago</p>
           </div>
         </div>
 
@@ -69,7 +69,7 @@ function App() {
             <p>2 weeks ago</p>
           </div>
         </div>
-        
+
         <div>
           <img src={anna} alt="Anna's image" />
           <div>
