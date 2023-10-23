@@ -16,12 +16,12 @@ function App() {
     <div className='font-PlusJakartaSans flex flex-col justify-center items-center bg-Verylightgrayishblue'>
       <div className='bg-white px-5 pt-5'>
         <div className='flex justify-between items-center'>
-          <p className='font-semibold text-[1.2rem] text-Verydarkblue'>Notifications</p>
+          <p className='font-semibold text-[1.3rem] text-Verydarkblue'>Notifications</p>
           <p>Mark all as read</p>
         </div>
-        <div className='bg-Lightgrayishblue1 p-3 flex'>
-          <img className='h-[3rem] w-[3rem]' src={mark} alt="Mark's image" />
-          <div>
+        <div className='bg-Lightgrayishblue1 p-3 rounded-lg flex'>
+          <img className='h-[2.9rem] w-[2.9rem]' src={mark} alt="Mark's image" />
+          <div className='ml-3'>
             <p><span>Mark Webber</span> reacted to your recent post <span>My first tournament today!</span><GoDotFill/></p>
             <p>1m ago</p>
           </div>
